@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+input {
+  padding: 4px 8px;
+  width: 80%;
+  margin-top: 5px;
+  position: relative;
+  left: 30px;
+  color: #2f192e;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 0px 10px 0px 10px;
+  transition: all 0.5s ease;
+  border: solid 4px #fd565d;
+}
+input:focus {
+  border-radius: 10px 0px 10px 0px;
+}

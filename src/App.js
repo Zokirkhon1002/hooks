@@ -1,6 +1,9 @@
 
 import './App.css';
-import UsesContext from './Hooks/context/UsesContext.js';
+import ReducerIndex from './Hooks/useReducer';
+// import UsesImperativeHandle from './Hooks/useImperativeHandle/UsesImerativeHandle';
+// import UsesLayout from './Hooks/UsesLayout';
+// import UsesContext from './Hooks/context/UsesContext.js';
 // import UsesCallback from './Hooks/UsesCallback';
 // import UsesMemo from './Hooks/UsesMemo';
 // import UsesEffects from './Hooks/UsesEffect';
@@ -10,7 +13,10 @@ import UsesContext from './Hooks/context/UsesContext.js';
 function App() {
   return (
     <div className="App">
-      <UsesContext />
+      <ReducerIndex />
+      {/* <UsesImperativeHandle /> */}
+      {/* <UsesLayout /> */}
+      {/* <UsesContext /> */}
       {/* <UsesCallback /> */}
       {/* <UsesMemo /> */}
       {/* <UsesRef /> */}
